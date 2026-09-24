@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Digimaks</string>
+
+    <!-- Common -->
+    <string name="common_cancel">Cancel</string>
+    <string name="common_retry">Try again</string>
+    <string name="common_retry_button">TRY AGAIN</string>
+    <string name="common_success">Success</string>
+    <string name="common_continue">Continue</string>
+    <string name="common_in_progress">In progress</string>
+    <string name="common_ok">OK</string>
+
+    <!--  Common Errors  -->
+    <string name="common_error_message">Something went wrong</string>
+    <string name="common_error_description">If the issue persists, please contact customer support</string>
+    <string name="common_network_error_message">Not connected to the internet</string>
+
+    <!-- Common Web Errors -->
+    <string name="web_error_title">WebView failed to load</string>
+    <string name="web_error_subtitle">Please try again</string>
+    <string name="web_error_retry">Retry</string>
+
+
+
+    <!-- Biometric prompt -->
+    <string name="biometric_login_welcome_title">Hey!</string>
+    <string name="biometric_login_welcome_subtitle">To start using your digital wallet, you need to activate it!</string>
+    <string name="biometric_login_btn_title">Log In</string>
+    <string name="biometric_prompt_title">Biometric authentication</string>
+    <string name="device_credential_prompt_title">PIN authentication</string>
+    <string name="biometric_prompt_subtitle">Authenticate using your biometrics</string>
+    <string name="device_credential_prompt_subtitle">Authenticate using your device PIN</string>
+    <string name="biometric_login_prompt_title">Enter your PIN</string>
+    <string name="biometric_login_prompt_subtitle">Use your biometrics to login</string>
+    <string name="biometric_login_prompt_quickPinOnlySubTitle">Type your quick pin to login</string>
+
+    <string name="biometric_failed_warning">Authentication failed</string>
+
+    <string name="biometric_warning_attempts_remaining">%d attempts remaining before wallet suspension</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_no_hardware">Your device does not support biometric authentication</string>
+    <string name="biometric_unknown_error">Something went wrong initializing biometric authentication. Please try again</string>
+
+    <string name="pin_timeout_message_singular">Too many failed attempts. Try again in 1 minute</string>
+    <string name="pin_timeout_message_plural">Too many failed attempts. Try again in %d minutes</string>
+    <string name="pin_timeout_started">Too many failed attempts. Try again in 10 minutes</string>
+    <string name="biometric_warning_final_attempts_remaining">%d attempts remaining before wallet deletion</string>
+
+    <!-- PIN -->
+    <string name="quick_pin_invalid_error">Invalid PIN</string>
+    <string name="quick_pin_numerical_rule_invalid_error_message">Only numerical values are allowed</string>
+    <string name="quick_pin_non_match">PINs do not match</string>
+
+    <string name="quick_pin_create_header_title">Add identity</string>
+
+    <string name="quick_pin_create_title">Create and memorize your PIN</string>
+    <string name="quick_pin_create_reenter_title">Repeat your PIN</string>
+    <string name="quick_pin_create_enter_subtitle">You will use this PIN every time you need to unlock your wallet, so make sure you memorize it</string>
+    <string name="quick_pin_create_reenter_subtitle">We want to make sure you\'ve memorized it</string>
+
+    <string name="quick_pin_change_title">Change quick pin</string>
+    <string name="quick_pin_change_validate_current_subtitle">Type your current pin</string>
+    <string name="quick_pin_change_enter_new_subtitle">Select a quick pin for future logins</string>
+    <string name="quick_pin_change_reenter_new_subtitle">Re-enter the new quick pin</string>
+
+    <string name="quick_pin_success_title">@string/common_success</string>
+    <string name="quick_pin_create_success_subtitle">You successfully set the quick pin</string>
+    <string name="quick_pin_create_success_btn">@string/common_continue</string>
+    <string name="quick_pin_change_success_subtitle">You successfully changed the quick pin</string>
+    <string name="quick_pin_change_success_btn">BACK TO HOME</string>
+
+    <!-- Content descriptions -->
+    <string name="content_description_user_image">User image</string>
+
+    <!-- QR Scan -->
+    <string name="qr_scan_permission_not_granted">Camera permission not provided\nOpen App Settings</string>
+    <string name="qr_scan_info_text_presentation_flow">Having trouble scanning the QR Code?\nPlease try an alternative way</string>
+    <string name="qr_scan_info_text_issuance_flow">Having trouble scanning the QR Code?\nPlease try an alternative way</string>
+    <string name="qr_scan_grant_permission">Grant permission</string>
+    <string name="qr_scan_go_to_settings">Go to settings</string>
+
+    <!-- Presentation Qr Scan -->
+    <string name="presentation_qr_scan_title">@string/issuance_qr_scan_title</string>
+    <string name="presentation_qr_scan_subtitle">@string/issuance_qr_scan_subtitle</string>
+
+    <!-- Documents -->
+    <string name="pid">Personal ID</string>
+    <string name="mdl">Driving license</string>
+    <string name="issuance_add_document_title">Add document</string>
+    <string name="issuance_add_document_subtitle">Select a document to add</string>"
+    <string name="issuance_add_document_deferred_success_title">Success</string>
+    <string name="issuance_add_document_deferred_success_subtitle">Document requested. Please wait for the confirmation</string>
+    <string name="issuance_add_document_deferred_success_primary_button">Confirm</string>
+    <string name="issuance_qr_scan_title">Scan QR</string>
+    <string name="issuance_qr_scan_subtitle">You can choose to scan a QR code</string>
+    <string name="issuance_add_document_qr_scan_title">Or</string>
+    <string name="issuance_add_document_qr_scan_subtitle">SCAN QR</string>
+    <string name="issuance_add_pid_title">Add your personal ID</string>
+    <string name="issuance_add_pid_subtitle">Select a way to add it</string>"
+    <string name="issuance_success_title">Successfully added PID</string>
+    <string name="issuance_success_subtitle">You can begin using your wallet</string>
+    <string name="issuance_success_primary_button">Confirm</string>
+
+    <string name="issuance_pid_success_title">Hey, %s</string>
+    <string name="issuance_pid_success_subtitle">Welcome to your digital wallet</string>
+    <string name="issuance_pid_success_button">Use Wallet</string>
+
+    <string name="issuance_document_offer_default_issuer_name">Issuer</string>
+    <string name="issuance_document_offer_title">%1$s wants to issue the following in your wallet</string>
+    <string name="issuance_document_offer_subtitle">Please confirm the issuance of the following</string>
+    <string name="issuance_document_offer_primary_button_text">ISSUE</string>
+    <string name="issuance_document_offer_secondary_button_text">@string/common_cancel</string>
+    <string name="issuance_document_offer_success_title">@string/common_success</string>
+    <string name="issuance_document_offer_deferred_success_title">@string/common_in_progress</string>
+    <string name="issuance_document_offer_success_subtitle">Your documents from %1$s have been successfully issued.</string>
+    <string name="issuance_document_offer_partial_success_subtitle">Your documents from %1$s have been successfully issued except %2$s</string>
+    <string name="issuance_document_offer_deferred_success_subtitle">Your documents from %1$s have been requested. You will be notified when they have been issued to your wallet.</string>
+    <string name="issuance_document_offer_success_primary_button_text">@string/common_continue</string>
+    <string name="issuance_document_offer_deferred_success_primary_button_text">@string/common_ok</string>
+    <string name="issuance_document_offer_error_missing_pid_text">Wallet needs to be activated first with a National ID</string>
+    <string name="issuance_document_offer_error_invalid_txcode_format">Invalid transaction code format. Length should be between %1$d to %2$d digits and only numeric characters are allowed.</string>
+    <string name="issuance_document_offer_error_txcode_invalid">Invalid transaction code. Please check and try again.</string>
+    <string name="issuance_document_offer_error_txcode_inactive">Transaction code is no longer active. Request a new code.</string>
+    <string name="issuance_document_offer_error_no_document">Unable to fetch and process the credential offer</string>
+
+    <string name="issuance_document_offer_bottom_sheet_cancel_title">Cancel issuance process?</string>
+    <string name="issuance_document_offer_bottom_sheet_cancel_subtitle">Cancel will redirect you back to the documents list with no new documents</string>
+    <string name="issuance_document_offer_bottom_sheet_cancel_primary_button_text">CONTINUE ISSUANCE</string>
+    <string name="issuance_document_offer_bottom_sheet_cancel_secondary_button_text">@string/common_cancel</string>
+    <string name="issuance_code_title">%1$s requires verification</string>
+    <string name="issuance_code_caption">Type the %1$d-digit transaction code you received</string>
+
+    <string name="issuance_generic_error">Something went wrong issuing your document(s)</string>
+
+
+    <!--  Document Details  -->
+    <string name="document_details_portrait_readable_identifier">Shown above</string>
+    <string name="vehicle_category_code">Vehicle category code</string>
+    <string name="user_pseudonym">User Pseudonym</string>
+    <string name="document_details_boolean_item_true_readable_value">Yes</string>
+    <string name="document_details_boolean_item_false_readable_value">No</string>
+
+    <!-- Request Screen -->
+    <string name="request_title_before_badge">Verifier</string>
+    <string name="request_title_after_badge">\ requests the following</string>
+    <string name="request_no_data">The requested document is not available in your EUDI Wallet.
+        Please contact the authorised issuer for further information.</string>
+    <string name="request_subtitle_one">Please review carefully before sharing your data.</string>
+    <string name="request_subtitle_two">\ Why we need your data?</string>
+    <string name="request_warning_text">Your selection of data to be shared may impact the service</string>
+    <string name="request_primary_button_text">SHARE</string>
+    <string name="request_secondary_button_text">@string/common_cancel</string>
+    <string name="request_bottom_sheet_cancel_title">Cancel information sharing?</string>
+    <string name="request_bottom_sheet_cancel_subtitle">Cancel will redirect you back to the login without sharing any information</string>
+    <string name="request_bottom_sheet_cancel_primary_button_text">CONTINUE SHARING</string>
+    <string name="request_bottom_sheet_cancel_secondary_button_text">@string/common_cancel</string>
+    <string name="request_bottom_sheet_subtitle_title">Why we need your data</string>
+    <string name="request_bottom_sheet_subtitle_subtitle">It allows us to verify your identity with the requesting party</string>
+    <string name="request_bottom_sheet_subtitle_primary_button_text">@string/common_ok</string>
+    <string name="request_bottom_sheet_badge_title">Trusted relying party</string>
+    <string name="request_bottom_sheet_badge_subtitle">A relying party is considered trusted when it meets predefined criteria for security, data protection, compliance, and responsible data handling. Trust is reinforced through assessments, audits, and certifications.</string>
+    <string name="request_bottom_sheet_badge_primary_button_text">@string/common_ok</string>
+    <string name="request_required_fields_title">Verification Data</string>
+    <string name="request_gender_unknown">Not known</string>
+    <string name="request_gender_male">male</string>
+    <string name="request_gender_female">female</string>
+    <string name="request_gender_not_applicable">Not applicable</string>
+    <string name="request_element_identifier_not_available">Not available</string>
+
+    <!-- Loading Screen -->
+    <string name="loading_subtitle">Please wait…</string>
+    <string name="loading_success_config_title">@string/common_success</string>
+    <string name="loading_success_config_primary_button_text">@string/common_continue</string>
+    <string name="loading_biometry_share_subtitle">Use your biometrics to share information</string>
+    <string name="loading_quick_pin_share_subtitle">Type your quick pin to share information</string>
+
+    <!-- Presentation Loading Screen -->
+    <string name="presentation_loading_success_config_subtitle">You successfully shared information with %1$s</string>
+    <string name="presentation_loading_success_config_verifier">Verifier</string>
+
+    <!--  Security  -->
+    <string name="security_error_title">Security Check Failed</string>
+    <string name="security_error_generic">Your device\'s security check failed (%1$s). Please ensure your device meets security requirements.</string>
+    <string name="security_error_no_screen_lock">Your device is not secure because no screen lock is set up. Please set up a PIN, pattern, or password in your device settings (%1$s).</string>
+    <string name="security_error_root_detected">Your device appears to be rooted or modified, which poses security risks (%1$s). Please use an unmodified device.</string>
+    <string name="security_error_webview_outdated">Your Android System WebView is outdated (%1$s). Please update it from the Play Store to continue.</string>
+    <string name="security_error_legacy_biometric_required">This Android version requires an enrolled fingerprint or face unlock to use the wallet securely (%1$s). Device PIN or password cannot be used for this security step on this version.</string>
+    <string name="security_error_exit">Exit App</string>
+    <string name="security_error_update_webview">Update WebView</string>
+    <string name="security_error_open_security_settings">Open Security Settings</string>
+    <string name="security_error_support">For assistance, contact support at digimaks@dativa.lv</string>
+
+    <string name="eparaksts_sid_label">ID number</string>
+    <string name="eparaksts_cn_label">Name</string>
+    <string name="eparaksts_expires_on_label">Expires on</string>
+    <string name="eparaksts_issued_on_label">Issued on</string>
+    <string name="eparaksts_type_label">Type</string>
+
+    <!-- Force Update -->
+    <string name="force_update_title">Update required</string>
+    <string name="force_update_description">A newer version of the app is required to continue. Please update to keep using Digimaks.</string>
+    <string name="force_update_cta">Update app</string>
+    <string name="force_update_close">Close app</string>
+</resources>

@@ -1,0 +1,81 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+
+
+# Local configuration file
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+
+# Version control
+vcs.xml
+
+# Android Profiling
+*.hprof
+
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+.gradle-user
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Signing configs
+*.keystore
+*.jks
+keystore.properties
+release/
+
+# buildSrc
+buildSrc/.gradle
+buildSrc/build
+
+.kotlin/
+
+# Web
+
+node_modules
+dist
+.npmrc
+
+google-services.json
+environment.properties
+**/output-metadata.json
+
+.tmp/
+/.tmp-*/
+/.woodpecker/

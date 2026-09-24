@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Cache files -->
+    <cache-path name="sign_temp" path="sign_temp/"/>
+
+    <!-- Files in cache directory -->
+    <cache-path name="sign_files" path="sign_files/"/>
+
+    <!-- Downloads folder -->
+    <external-path name="downloads" path="Download/Digimaks/"/>
+
+    <cache-path name="preview" path="container_preview/"/>
+    <cache-path name="shared_files" path="." />
+</paths>

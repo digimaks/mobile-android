@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <queries>
+        <package android:name="com.android.chrome" />
+        <package android:name="com.google.android.apps.chrome" />
+        <package android:name="com.chrome.beta" />
+        <package android:name="com.chrome.dev" />
+        <package android:name="com.sec.android.app.sbrowser" />
+        <package android:name="com.microsoft.emmx" />
+    </queries>
+
+    <application>
+        <activity
+            android:name="lv.zzdats.commonfeature.features.applock.AppLockGateActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.Digimaks" />
+    </application>
+</manifest>

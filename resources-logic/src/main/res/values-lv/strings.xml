@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">Digimaks</string>
+
+    <!-- Common -->
+    <string name="common_cancel">Atcelt</string>
+    <string name="common_retry">Mēģināt vēlreiz</string>
+    <string name="common_retry_button">MĒĢINĀT VĒLREIZ</string>
+    <string name="common_success">Veiksmīgi</string>
+    <string name="common_continue">Turpināt</string>
+    <string name="common_in_progress">Notiek apstrāde</string>
+    <string name="common_ok">Labi</string>
+
+    <!-- Common Errors -->
+    <string name="common_error_message">Kaut kas nogāja greizi</string>
+    <string name="common_error_description">Ja problēma saglabājas, lūdzu, sazinieties ar klientu atbalstu</string>
+    <string name="common_network_error_message">Nav savienojuma ar internetu</string>
+
+    <!-- Common Web Errors -->
+    <string name="web_error_title">WebView neizdevās ielādēt</string>
+    <string name="web_error_subtitle">Lūdzu, mēģiniet vēlreiz</string>
+    <string name="web_error_retry">Mēģināt vēlreiz</string>
+
+
+
+    <!-- Biometric prompt -->
+    <string name="biometric_login_welcome_title">Čau!</string>
+    <string name="biometric_login_welcome_subtitle">Lai sāktu lietot savu digitālo maciņu, tas ir jāaktivizē!</string>
+    <string name="biometric_login_btn_title">Pieslēgties</string>
+    <string name="biometric_prompt_title">Biometriskā autentifikācija</string>
+    <string name="device_credential_prompt_title">PIN autentifikācija</string>
+    <string name="biometric_prompt_subtitle">Izmantojiet biometriju, lai apstiprinātu</string>
+    <string name="device_credential_prompt_subtitle">Autentificējaties ar ierīces PIN</string>
+    <string name="biometric_login_prompt_title">Ievadiet PIN</string>
+    <string name="biometric_login_prompt_subtitle">Izmantojiet biometriju, lai pieteiktos</string>
+    <string name="biometric_login_prompt_quickPinOnlySubTitle">Ievadiet PIN, lai pieteiktos</string>
+    <string name="biometric_warning_attempts_remaining">%d mēģinājumi līdz maka apturēšanai</string>
+
+    <string name="biometric_failed_warning">Autentifikācija neizdevās</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_no_hardware">Jūsu ierīce neatbalsta biometrisko autentifikāciju</string>
+    <string name="biometric_unknown_error">Nezināma kļūda</string>
+
+    <string name="pin_timeout_message_singular">Pārāk daudz neveiksmīgu mēģinājumu. Mēģiniet vēlreiz pēc 1 minūtes</string>
+    <string name="pin_timeout_message_plural">Pārāk daudz neveiksmīgu mēģinājumu. Mēģiniet vēlreiz pēc %d minūtēm</string>
+    <string name="pin_timeout_started">Pārāk daudz neveiksmīgu mēģinājumu. Mēģiniet vēlreiz pēc 10 minūtēm</string>
+    <string name="biometric_warning_final_attempts_remaining">Līdz maka dzēšanai atlikuši %d mēģinājumi</string>
+
+    <!-- PIN -->
+    <string name="quick_pin_invalid_error">Nepareizs PIN</string>
+    <string name="quick_pin_numerical_rule_invalid_error_message">Tikai skaitļi ir atļauti</string>
+    <string name="quick_pin_non_match">PIN nesakrīt</string>
+
+    <string name="quick_pin_create_header_title">Identitātes pievienošana</string>
+
+    <string name="quick_pin_create_title">Izveidojiet un atceraties savu PIN</string>
+    <string name="quick_pin_create_reenter_title">Atkārtojiet PIN</string>
+    <string name="quick_pin_create_enter_subtitle">PIN būs jāievada katru reizi atverot digitālo maku, tāpēc svarīgi to iegaumēt</string>
+    <string name="quick_pin_create_reenter_subtitle">Vēlamies pārliecināties, ka esat to iegaumējis</string>
+
+    <string name="quick_pin_change_title">Change quick pin</string>
+    <string name="quick_pin_change_validate_current_subtitle">Type your current pin</string>
+    <string name="quick_pin_change_enter_new_subtitle">Select a quick pin for future logins</string>
+    <string name="quick_pin_change_reenter_new_subtitle">Re-enter the new quick pin</string>
+
+    <string name="quick_pin_success_title">@string/common_success</string>
+    <string name="quick_pin_create_success_subtitle">You successfully set the quick pin</string>
+    <string name="quick_pin_create_success_btn">@string/common_continue</string>
+    <string name="quick_pin_change_success_subtitle">You successfully changed the quick pin</string>
+    <string name="quick_pin_change_success_btn">BACK TO HOME</string>
+
+    <!-- Content descriptions -->
+    <string name="content_description_user_image">User image</string>
+
+    <!-- QR Scan -->
+    <string name="qr_scan_permission_not_granted">Kameras atļauja nav piešķirta\nAtveriet lietotnes iestatījumus</string>
+    <string name="qr_scan_info_text_presentation_flow">Vai ir problēmas ar QR koda skenēšanu?\nLūdzu, mēģiniet alternatīvu veidu</string>
+    <string name="qr_scan_info_text_issuance_flow">Vai ir problēmas ar QR koda skenēšanu?\nLūdzu, mēģiniet alternatīvu veidu</string>
+    <string name="qr_scan_grant_permission">Piešķirt atļauju</string>
+    <string name="qr_scan_go_to_settings">Doties uz iestatījumiem</string>
+
+    <!-- Presentation Qr Scan -->
+    <string name="presentation_qr_scan_title">@string/issuance_qr_scan_title</string>
+    <string name="presentation_qr_scan_subtitle">@string/issuance_qr_scan_subtitle</string>
+
+    <!-- Documents -->
+    <string name="pid">Personal ID</string>
+    <string name="mdl">Driving license</string>
+    <string name="issuance_add_document_title">Add document</string>
+    <string name="issuance_add_document_subtitle">Select a document to add</string>"
+    <string name="issuance_add_document_deferred_success_title">Success</string>
+    <string name="issuance_add_document_deferred_success_subtitle">Document requested. Please wait for the confirmation</string>
+    <string name="issuance_add_document_deferred_success_primary_button">Confirm</string>
+    <string name="issuance_qr_scan_title">Skenēt QR</string>
+    <string name="issuance_qr_scan_subtitle"></string>
+    <string name="issuance_add_document_qr_scan_title">Or</string>
+    <string name="issuance_add_document_qr_scan_subtitle">SCAN QR</string>
+    <string name="issuance_add_pid_title">Add your personal ID</string>
+    <string name="issuance_add_pid_subtitle">Select a way to add it</string>"
+    <string name="issuance_success_title">Successfully added PID</string>
+    <string name="issuance_success_subtitle">You can begin using your wallet</string>
+    <string name="issuance_success_primary_button">Confirm</string>
+
+    <string name="issuance_pid_success_title">Hey, %s</string>
+    <string name="issuance_pid_success_subtitle">Welcome to your digital wallet</string>
+    <string name="issuance_pid_success_button">Use Wallet</string>
+
+    <string name="issuance_document_offer_default_issuer_name">Issuer</string>
+    <string name="issuance_document_offer_title">%1$s wants to issue the following in your wallet</string>
+    <string name="issuance_document_offer_subtitle">Please confirm the issuance of the following</string>
+    <string name="issuance_document_offer_primary_button_text">ISSUE</string>
+    <string name="issuance_document_offer_secondary_button_text">@string/common_cancel</string>
+    <string name="issuance_document_offer_success_title">@string/common_success</string>
+    <string name="issuance_document_offer_deferred_success_title">@string/common_in_progress</string>
+    <string name="issuance_document_offer_success_subtitle">Your documents from %1$s have been successfully issued.</string>
+    <string name="issuance_document_offer_partial_success_subtitle">Your documents from %1$s have been successfully issued except %2$s</string>
+    <string name="issuance_document_offer_deferred_success_subtitle">Your documents from %1$s have been requested. You will be notified when they have been issued to your wallet.</string>
+    <string name="issuance_document_offer_success_primary_button_text">@string/common_continue</string>
+    <string name="issuance_document_offer_deferred_success_primary_button_text">@string/common_ok</string>
+    <string name="issuance_document_offer_error_missing_pid_text">Vispirms Maks ir jāaktivizē ar valsts ID karti</string>
+    <string name="issuance_document_offer_error_invalid_txcode_format">Nederīgs koda formāts. Garumam ir jābūt no %1$d līdz %2$d cipariem, un ir atļautas tikai ciparu rakstzīmes.</string>
+    <string name="issuance_document_offer_error_txcode_invalid">Nederīgs transakcijas kods. Lūdzu, pārbaudiet un mēģiniet vēlreiz.</string>
+    <string name="issuance_document_offer_error_txcode_inactive">Transakcijas kods vairs nav aktīvs. Pieprasiet jaunu kodu.</string>
+    <string name="issuance_document_offer_error_no_document">Nevar apstrādāt datu piedāvājumu</string>
+
+    <string name="issuance_document_offer_bottom_sheet_cancel_title">Cancel issuance process?</string>
+    <string name="issuance_document_offer_bottom_sheet_cancel_subtitle">Cancel will redirect you back to the documents list with no new documents</string>
+    <string name="issuance_document_offer_bottom_sheet_cancel_primary_button_text">CONTINUE ISSUANCE</string>
+    <string name="issuance_document_offer_bottom_sheet_cancel_secondary_button_text">@string/common_cancel</string>
+    <string name="issuance_code_title">%1$s requires verification</string>
+    <string name="issuance_code_caption">Type the %1$d-digit transaction code you received</string>
+
+    <string name="issuance_generic_error">Izsniedzot dokumentu(-us), radās problēma</string>
+
+
+    <!--  Document Details  -->
+    <string name="document_details_portrait_readable_identifier">Rādīts augšā</string>
+    <string name="vehicle_category_code">Transportlīdzekļa kategorijas kods</string>
+    <string name="user_pseudonym">Lietotāja pseidonīms</string>
+    <string name="document_details_boolean_item_true_readable_value">Jā</string>
+    <string name="document_details_boolean_item_false_readable_value">Nē</string>
+
+    <!-- Request Screen -->
+    <string name="request_title_before_badge">Verifier</string>
+    <string name="request_title_after_badge">\ requests the following</string>
+    <string name="request_no_data">The requested document is not available in your EUDI Wallet.
+        Please contact the authorised issuer for further information.</string>
+    <string name="request_subtitle_one">Please review carefully before sharing your data.</string>
+    <string name="request_subtitle_two">\ Why we need your data?</string>
+    <string name="request_warning_text">Your selection of data to be shared may impact the service</string>
+    <string name="request_primary_button_text">SHARE</string>
+    <string name="request_secondary_button_text">@string/common_cancel</string>
+    <string name="request_bottom_sheet_cancel_title">Cancel information sharing?</string>
+    <string name="request_bottom_sheet_cancel_subtitle">Cancel will redirect you back to the login without sharing any information</string>
+    <string name="request_bottom_sheet_cancel_primary_button_text">CONTINUE SHARING</string>
+    <string name="request_bottom_sheet_cancel_secondary_button_text">@string/common_cancel</string>
+    <string name="request_bottom_sheet_subtitle_title">Why we need your data</string>
+    <string name="request_bottom_sheet_subtitle_subtitle">It allows us to verify your identity with the requesting party</string>
+    <string name="request_bottom_sheet_subtitle_primary_button_text">@string/common_ok</string>
+    <string name="request_bottom_sheet_badge_title">Trusted relying party</string>
+    <string name="request_bottom_sheet_badge_subtitle">A relying party is considered trusted when it meets predefined criteria for security, data protection, compliance, and responsible data handling. Trust is reinforced through assessments, audits, and certifications.</string>
+    <string name="request_bottom_sheet_badge_primary_button_text">@string/common_ok</string>
+    <string name="request_required_fields_title">Verification Data</string>
+    <string name="request_gender_unknown">Nezināms</string>
+    <string name="request_gender_male">Vīrietis</string>
+    <string name="request_gender_female">Sieviete</string>
+    <string name="request_gender_not_applicable">Nav piemērojams</string>
+    <string name="request_element_identifier_not_available">Nav pieejams</string>
+
+    <!-- Loading Screen -->
+    <string name="loading_subtitle">Please wait…</string>
+    <string name="loading_success_config_title">@string/common_success</string>
+    <string name="loading_success_config_primary_button_text">@string/common_continue</string>
+    <string name="loading_biometry_share_subtitle">Use your biometrics to share information</string>
+    <string name="loading_quick_pin_share_subtitle">Type your quick pin to share information</string>
+
+    <!-- Presentation Loading Screen -->
+    <string name="presentation_loading_success_config_subtitle">You successfully shared information with %1$s</string>
+    <string name="presentation_loading_success_config_verifier">Verifier</string>
+
+    <!--  Security  -->
+    <string name="security_error_title">Drošības pārbaude neizdevās</string>
+    <string name="security_error_generic">Jūsu ierīce ir nedroša (%1$s). Lūdzu pārliecinities par ierīces atbilstību.</string>
+    <string name="security_error_no_screen_lock">Jūsu ierīce nav droša, jo nav iestatīta ekrāna bloķēšana. Lūdzu, iestatiet PIN, kombināciju vai paroli ierīces iestatījumos (%1$s).</string>
+    <string name="security_error_root_detected">Jūsu ierīce ir modificēta un neatbilst drošības standartiem, kas var radīt drošības riskus (%1$s).</string>
+    <string name="security_error_webview_outdated">Jūsu Android System WebView ir novecojis (%1$s). Lūdzu, atjauniniet to Play Store, lai turpinātu.</string>
+    <string name="security_error_legacy_biometric_required">Šai Android versijai ir nepieciešams reģistrēts pirkstu nospiedums vai sejas atbloķēšana, lai droši izmantotu maku (%1$s). Šajā versijā šim drošības solim nevar izmantot ierīces PIN vai paroli.</string>
+    <string name="security_error_open_security_settings">Atvērt drošības iestatījumus</string>
+    <string name="security_error_exit">Iziet</string>
+    <string name="security_error_update_webview">Atjaunināt WebView</string>
+    <string name="security_error_support">Lai saņemtu palīdzību, sazinieties ar atbalsta dienestu digimaks@dativa.lv</string>
+
+    <string name="eparaksts_sid_label">ID numurs</string>
+    <string name="eparaksts_cn_label">Vārds</string>
+    <string name="eparaksts_expires_on_label">Derīguma termiņš</string>
+    <string name="eparaksts_issued_on_label">Izsniegšanas datums</string>
+    <string name="eparaksts_type_label">Tips</string>
+
+    <!-- Force Update -->
+    <string name="force_update_title">Nepieciešama atjaunināšana</string>
+    <string name="force_update_description">Lai turpinātu, nepieciešama jaunāka lietotnes versija. Lūdzu, atjauniniet, lai turpinātu lietot Digimaks.</string>
+    <string name="force_update_cta">Atjaunināt lietotni</string>
+    <string name="force_update_close">Aizvērt lietotni</string>
+</resources>
